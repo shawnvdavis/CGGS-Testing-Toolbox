@@ -142,7 +142,6 @@ edlibAlign(seq1, seq1Length, seq2, seq2Length,
 ```
 Or, if you want to use suffix(SHW) alignment method, want to find only edit distance, do not have any limits on edit distance and want character '?' to match both itself and characters 'X' and 'Y', you would call it like this:
 ```c
-EdlibEqualityPair additionalEqualities[2] = {{'?', 'X'}, {'?', 'Y'}};
 edlibAlign(seq1, seq1Length, seq2, seq2Length,
            edlibNewAlignConfig(-1, EDLIB_MODE_SHW, EDLIB_TASK_DISTANCE, additionalEqualities, 2));
 ```
