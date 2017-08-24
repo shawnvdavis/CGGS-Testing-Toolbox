@@ -1,4 +1,4 @@
-Edlib
+CGGS Testing Toolbox
 =====
 [![Latest Github release](https://img.shields.io/github/release/Martinsos/edlib.svg)](https://github.com/Martinsos/edlib/releases/latest)
 [![Build status of the master branch on Linux/OSX](https://img.shields.io/travis/Martinsos/edlib/master.svg?label=Linux%20%2F%20OSX%20build)](https://travis-ci.org/Martinsos/edlib)
